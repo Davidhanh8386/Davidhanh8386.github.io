@@ -1,0 +1,66 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.icon {
+  font-size: 40px;
+}
+
+.avatar {
+  border-radius: 50%;
+}
+
+.container {
+  position: relative;
+  text-align: center;
+  background-color: white;
+}
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.grid-container {
+  display: inline-grid;
+  justify-content: center;
+  padding-top: 3rem;
+  grid-template-columns: 30% 30% 30%;
+  background-color: dodgerblue;
+  gap: 3rem;
+  grid-row: 1/-1;
+}
+
+.item-3 {
+  grid-column: 3;
+  grid-row: 4/ -1;
+}
+
+.hidden-content {
+  display: none;
+}
+#img {
+  position: relative;
+  width: 100px;
+  border: 10px solid white;
+  border-radius: 50px;
+  margin-top: -100px;
+  display: grid;
+}
+/* Thang điểm */
+
+span {
+  background: #199cdb;
+  display: inline-block;
+  height: 5px;
+  margin-right: 10px;
+  width: 45px;
+}
+
+.hover-area {
+  justify-content: center;
+  padding: 5px;
+  position: relative;
+}

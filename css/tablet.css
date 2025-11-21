@@ -1,0 +1,11 @@
+@media only screen and (max-width: 768px) {
+  .navbar {
+    height: 110px;
+  }
+  .navbar {
+    flex-direction: column;
+  }
+  #img {
+    display: none;
+  }
+}

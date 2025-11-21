@@ -1,0 +1,14 @@
+@media only screen and (max-width: 600px) {
+  .navbar {
+    height: 110px;
+  }
+  .navbar {
+    flex-direction: column;
+  }
+  .navbar ul {
+    padding: 10px;
+  }
+  #img {
+    display: none;
+  }
+}
